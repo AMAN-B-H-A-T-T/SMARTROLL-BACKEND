@@ -17,7 +17,11 @@ try{
     //initilizedSocket(io)
     setSocketObject(io)
     app.use(express.json())
-
+    app.get("/",(req,res)=>{
+        res.status(200).send({
+            "message":"welcome"
+        })
+    })
     app.use("/api/profile",require("./routes/profile.route"))
     app.use("/api/manage",require('./routes/batches.route'))
     app.use("/api/manage",require('./routes/semester.route'))
