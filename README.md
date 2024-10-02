@@ -20,17 +20,24 @@ This project is a Smart Attendance System developed using Node.js for the server
 
 ## Installation
 
-1. Clone the repository: https://github.com/AMAN-B-H-A-T-T/SmartRoll-backend.git
-
+1. Clone the repository:
+```sh
+   git clone https://github.com/yourusername/smart-attendance-system.git 
+```
 2. Install dependencies:
+```sh
 cd smart-attendance-system
 npm install
+```
 
 3. Set up environment variables:
 
 Create a `.env` file in the root directory and provide the necessary environment variables, such as database connection URI, JWT secret, etc.
 
-4. Run the server: npm run dev
+4. Run the server:
+```sh
+npm run dev
+```
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
